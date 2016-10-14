@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topbarMenu {
+  font-size: 15px;
+  height: 65px;
+
+  #logo {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 25px;
+    float: left;
+  }
+  .searchBar {
+    display: inline;
+  }
+  .topbarOption {
+    float: right;
+  }
+
+}
+
+.categoryMenu {
+  font-size: 15px;
+  color: grey;
+  height: 35px;
+  background-color: lightyellow;
+}
+
+.results {
+  padding-top: 23px;
+  background-color: lightgrey;
+  overflow: auto;
+
+nav {
+    float:left;
+    width: 20%;
+  }
+  .navHeader {
+    font-size: 15px;
+  }
+  #navTitle {
+    font-size: 13px;
+  }
+  .navSearch {
+    background-color: white;
+    font-size: 13px;
+  }
+  .navList {
+    list-style: none;
+  }
+}
+
+.container{
+  .containerHeader {
+    display: inline;
+  }
+  .containerSort {
+    float:right;
+  }
+  .items {
+    display: inline-block;
+  }
+}
+
+.navPages {
+  clear: left;
+}

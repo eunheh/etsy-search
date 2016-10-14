@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+.topbarMenu {
+  font-size: 15px;
+  height: 65px; }
+  .topbarMenu #logo {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 25px;
+    float: left; }
+  .topbarMenu .searchBar {
+    display: inline; }
+  .topbarMenu .topbarOption {
+    float: right; }
+
+.categoryMenu {
+  font-size: 15px;
+  color: grey;
+  height: 35px;
+  background-color: lightyellow; }
+
+.results {
+  padding-top: 23px;
+  background-color: lightgrey;
+  overflow: auto; }
+  .results nav {
+    float: left;
+    width: 20%; }
+  .results .navHeader {
+    font-size: 15px; }
+  .results #navTitle {
+    font-size: 13px; }
+  .results .navSearch {
+    background-color: white;
+    font-size: 13px; }
+  .results .navList {
+    list-style: none; }
+
+.container .containerHeader {
+  display: inline; }
+
+.container .containerSort {
+  float: right; }
+
+.container .items {
+  display: inline-block; }
+
+.navPages {
+  clear: left; }

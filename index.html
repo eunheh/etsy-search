@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tic Tac Toe</title>
+    <title>Etsy Search Page</title>
     <link href="normalize.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Roboto" rel="stylesheet">
     <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
-    <h1></h1>
 
-    <div class="">
+    <nav class="topbarMenu">
+      <div id="logo">Etsy</div>
+        <form class="searchBar">
+          <input type="text" name="search" placeholder="watches">Search
+        </form>
+      <div class="topbarOption">
+        <span>Sell on Etsy</span>
+        <span>Register</span>
+        <span>Sign in</span>
+        <span class="topbarList">Cart</span>
+      </div>
+    </nav>
+
+    <div class="categoryMenu">
+      <span>Clothing & Accessories</span>
+      <span>Jewelry</span>
+      <span>Craft Supplies & Tools</span>
+      <span>Weddings</span>
+      <span>Entertainment</span>
+      <span>Home & Living</span>
+      <span>Kids & Baby</span>
+      <span>Vintage</span>
     </div>
 
+    <div class="results">
+      <nav>
+        <div class="navHeader">Show results for: </div>
+        <div class="navSearch">
+          <p id="navTitle">All categories</p>
+          <ul class="navList">
+            <li>Home & Living</li>
+            <li>Art & Collectibles</li>
+            <li>Weddings</li>
+            <li>Clothing</li>
+            <li>Paper & Party Supplies</li>
+            <li>Jelewry</li>
+            <li>Accories</li>
+            <li>Craft Supplies & Tools</li>
+            <li>Bags & Purses</li>
+            <li>Bath & Beauty</li>
+            <li>Shoes</li>
+            <li>Books, Movies & Music</li>
+            <li>Electronic & Accessories</li>
+            <li>Toys & Games</li>
+            <li>Pet Supplies</li>
+          </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="containerHeader">
+        <span>All catetoryies</span>
+        <span>> "watches"</span>
+        <span>(50,100 Results)</span>
+      </div>
+      <div class="containerSort">
+        <span>Sort by:</span>
+        <span>Relevency</span>
+      </div>
+      <div class="items">
+        <!-- JS STUFF -->
+      </div>
+    </div>
+    </div>
 
+    <div class="navPages">
+      <span class="page"><</span>
+      <span class="page">1</span>
+      <span class="page">2</span>
+      <span class="page">3</span>
+      <span class="page">4</span>
+      <span class="page">5</span>
+      <span class="page">6</span>
+      <span class="page">7</span>
+      <span class="page">8</span>
+      <span class="page">...</span>
+      <span class="page">250</span>
+      <span class="page">></span>
+    </div>
     <script src="jquery.js"></script>
+    <script src="data.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
