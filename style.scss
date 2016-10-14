@@ -5,20 +5,33 @@
 
 .topbarMenu {
   font-size: 15px;
-  height: 65px;
+  height: 50px;
+  margin-top: 15px;
 
   #logo {
     font-family: 'Abhaya Libre', serif;
-    font-size: 25px;
+    font-size: 35px;
     float: left;
+    color: #F56400;
+    margin-left: 29px;
+    margin-top: -4px;
   }
-  .searchBar {
-    display: inline;
+  .searchBox {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 5px;
+    margin-right: 0px;
+    width: 200px;
+  }
+  button {
+    margin: 0px;
+    background-color: #34A8C4;
+    color: white;
+    border: 1px solid #2F98B1;
   }
   .topbarOption {
     float: right;
   }
-
 }
 
 .categoryMenu {
@@ -30,12 +43,12 @@
 
 .results {
   padding-top: 23px;
-  background-color: lightgrey;
+  background-color: #F5F5F1;
   overflow: auto;
 
 nav {
     float:left;
-    width: 20%;
+    width: 17%;
   }
   .navHeader {
     font-size: 15px;
@@ -53,6 +66,9 @@ nav {
 }
 
 .container{
+  margin-left: 18%;
+
+
   .containerHeader {
     display: inline;
     position: relative;
@@ -62,32 +78,44 @@ nav {
     float:right;
   }
   .items {
-    clear: both;
+     padding: 30px;
 
+     .link {
+       text-decoration: none;
+     }
 
     .item {
-      width: 120px;
+      width: 170px;
+      margin: 5px;
       display: inline-block;
+      background-color: white;
+      border-radius: 3px;
+      border: 1px solid lightgrey;
 
       .picture {
-        width: 120px;
-        height: 120px;
-        border-style: solid;
-        border-color: lightgrey;
-        border-width: 1px;
-        border-radius: 3px;
+        width: 168px;
+        height: 168px;
         margin-right: 15px;
       }
       .title {
-        font-size: 8px
+        font-size: 10px;
+        color: black;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       .shop {
-        color: grey;
-        font-size: 8px
+        color: #9C9C9C;
+        font-size: 10px;
+        display: inline;
+        margin-top: -2px;
       }
       .price {
-        color: green;
-        font-size: 8px
+        color: #78C042;
+        font-size: 10px;
+        float: right;
+        margin-top: 5px;
+
       }
     }
   }

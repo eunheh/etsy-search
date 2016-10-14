@@ -4,13 +4,26 @@
 
 .topbarMenu {
   font-size: 15px;
-  height: 65px; }
+  height: 50px;
+  margin-top: 15px; }
   .topbarMenu #logo {
     font-family: 'Abhaya Libre', serif;
-    font-size: 25px;
-    float: left; }
-  .topbarMenu .searchBar {
-    display: inline; }
+    font-size: 35px;
+    float: left;
+    color: #F56400;
+    margin-left: 29px;
+    margin-top: -4px; }
+  .topbarMenu .searchBox {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 5px;
+    margin-right: 0px;
+    width: 200px; }
+  .topbarMenu button {
+    margin: 0px;
+    background-color: #34A8C4;
+    color: white;
+    border: 1px solid #2F98B1; }
   .topbarMenu .topbarOption {
     float: right; }
 
@@ -22,11 +35,11 @@
 
 .results {
   padding-top: 23px;
-  background-color: lightgrey;
+  background-color: #F5F5F1;
   overflow: auto; }
   .results nav {
     float: left;
-    width: 20%; }
+    width: 17%; }
   .results .navHeader {
     font-size: 15px; }
   .results #navTitle {
@@ -37,34 +50,44 @@
   .results .navList {
     list-style: none; }
 
-.container .containerHeader {
-  display: inline;
-  position: relative; }
-
-.container .containerSort {
-  float: right; }
-
-.container .items {
-  clear: both; }
-  .container .items .item {
-    width: 120px;
-    display: inline-block; }
-    .container .items .item .picture {
-      width: 120px;
-      height: 120px;
-      border-style: solid;
-      border-color: lightgrey;
-      border-width: 1px;
+.container {
+  margin-left: 18%; }
+  .container .containerHeader {
+    display: inline;
+    position: relative; }
+  .container .containerSort {
+    float: right; }
+  .container .items {
+    padding: 30px; }
+    .container .items .link {
+      text-decoration: none; }
+    .container .items .item {
+      width: 170px;
+      margin: 5px;
+      display: inline-block;
+      background-color: white;
       border-radius: 3px;
-      margin-right: 15px; }
-    .container .items .item .title {
-      font-size: 8px; }
-    .container .items .item .shop {
-      color: grey;
-      font-size: 8px; }
-    .container .items .item .price {
-      color: green;
-      font-size: 8px; }
+      border: 1px solid lightgrey; }
+      .container .items .item .picture {
+        width: 168px;
+        height: 168px;
+        margin-right: 15px; }
+      .container .items .item .title {
+        font-size: 10px;
+        color: black;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .container .items .item .shop {
+        color: #9C9C9C;
+        font-size: 10px;
+        display: inline;
+        margin-top: -2px; }
+      .container .items .item .price {
+        color: #78C042;
+        font-size: 10px;
+        float: right;
+        margin-top: 5px; }
 
 .navPages {
   clear: left; }
