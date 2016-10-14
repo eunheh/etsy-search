@@ -38,13 +38,33 @@
     list-style: none; }
 
 .container .containerHeader {
-  display: inline; }
+  display: inline;
+  position: relative; }
 
 .container .containerSort {
   float: right; }
 
 .container .items {
-  display: inline-block; }
+  clear: both; }
+  .container .items .item {
+    width: 120px;
+    display: inline-block; }
+    .container .items .item .picture {
+      width: 120px;
+      height: 120px;
+      border-style: solid;
+      border-color: lightgrey;
+      border-width: 1px;
+      border-radius: 3px;
+      margin-right: 15px; }
+    .container .items .item .title {
+      font-size: 8px; }
+    .container .items .item .shop {
+      color: grey;
+      font-size: 8px; }
+    .container .items .item .price {
+      color: green;
+      font-size: 8px; }
 
 .navPages {
   clear: left; }
