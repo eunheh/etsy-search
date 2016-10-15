@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none; }
 
 .topbarMenu {
   font-size: 15px;
@@ -17,21 +18,69 @@
     display: inline-block;
     margin-left: 18px;
     margin-top: 5px;
-    margin-right: 0px;
-    width: 200px; }
-  .topbarMenu button {
-    margin: 0px;
+    margin-right: -5px;
+    width: 313px;
+    height: 26px;
+    border: 1px solid #ACA9A6;
+    background-color: #FBFBFA; }
+  .topbarMenu .searchName {
     background-color: #34A8C4;
     color: white;
-    border: 1px solid #2F98B1; }
+    border: 2px solid #2F98B1;
+    font-size: 12px;
+    padding: 6px;
+    width: 64px;
+    height: 26px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; }
   .topbarMenu .topbarOption {
-    float: right; }
+    float: right;
+    margin-top: -23px;
+    color: #0292B5;
+    font-size: 12px;
+    list-style: none; }
+    .topbarMenu .topbarOption .topMenu {
+      padding-left: 12px;
+      display: inline-block; }
+    .topbarMenu .topbarOption #signIn {
+      padding: 6px;
+      background-color: white;
+      border-color: #0292B5;
+      border-width: thin;
+      border-radius: 3px;
+      color: #0292B5;
+      display: inline-block;
+      margin: 13px;
+      margin-left: 10px; }
+    .topbarMenu .topbarOption .topbarList {
+      display: inline-block;
+      padding-right: 33px; }
+    .topbarMenu .topbarOption ul {
+      list-style: none;
+      border-left: thin solid #EEEEEE;
+      padding-left: 9px; }
+    .topbarMenu .topbarOption ul img {
+      width: 18px;
+      color: #666666; }
+    .topbarMenu .topbarOption #cart {
+      color: #888888;
+      font-size: 11px;
+      padding: 2px; }
 
 .categoryMenu {
-  font-size: 15px;
-  color: grey;
+  color: #777777;
   height: 35px;
-  background-color: lightyellow; }
+  font-size: 12px;
+  padding-top: 12px;
+  padding-left: 20px;
+  border-top: 1px solid #E1E3DF;
+  border-bottom: 1px solid #E1E3DF; }
+  .categoryMenu .categoryItem {
+    float: left;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 2px;
+    letter-spacing: .5px; }
 
 .results {
   padding-top: 23px;
@@ -39,24 +88,53 @@
   overflow: auto; }
   .results nav {
     float: left;
-    width: 17%; }
+    width: 19%; }
   .results .navHeader {
-    font-size: 15px; }
+    font-size: 12px;
+    padding-left: 28px; }
   .results #navTitle {
-    font-size: 13px; }
+    font-size: 12px;
+    padding: 0px 0px 0px 8px;
+    margin-top: 9px; }
   .results .navSearch {
     background-color: white;
-    font-size: 13px; }
+    font-size: 11px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #E1E3DF; }
   .results .navList {
+    padding-left: 18px;
+    padding-bottom: 2px;
     list-style: none; }
+    .results .navList li a {
+      color: #0292B5; }
+    .results .navList li {
+      margin-top: 7px; }
 
 .container {
   margin-left: 18%; }
   .container .containerHeader {
     display: inline;
-    position: relative; }
+    font-size: 12px;
+    position: relative;
+    padding-left: 20px; }
+    .container .containerHeader #all {
+      color: #0292B5; }
+    .container .containerHeader #wordSearched {
+      color: #444444;
+      font-weight: bolder; }
+    .container .containerHeader .resultCount {
+      color: #444444; }
   .container .containerSort {
-    float: right; }
+    float: right;
+    padding-right: 33px; }
+    .container .containerSort #sortBy {
+      font-size: 12px;
+      color: #444444; }
+    .container .containerSort #relevent {
+      font-size: 12px;
+      color: #0292B5; }
   .container .items {
     padding: 30px; }
     .container .items .link {

@@ -10,27 +10,30 @@
 
     <nav class="topbarMenu">
       <div id="logo">Etsy</div>
-          <input class="searchBox" type="text" name="search" placeholder="watches">
-          <button>Search</button>
+          <input class="searchBox" type="text" name="search" placeholder="cards">
+          <input class="searchName" type="submit" value="Search">
       <div class="topbarOption">
-        <span>Sell on Etsy</span>
-        <span>Register</span>
-        <span>Sign in</span>
-        <span class="topbarList">
-          <img src="./assets/cart.png">Cart</span>
-      </div>
+        <div class="topMenu">Sell on Etsy</div>
+        <div class="topMenu">Register</div>
+        <button id="signIn">Sign in</button>
+        <div class="topbarList">
+          <ul>
+            <li><img src="./assets/cart.png"></li>
+            <li id="cart">Cart</li>
+          </ul>
+        </div>
     </nav>
 
     <div class="categoryMenu">
-      <span>Clothing & Accessories</span>
-      <span>Jewelry</span>
-      <span>Craft Supplies & Tools</span>
-      <span>Weddings</span>
-      <span>Entertainment</span>
-      <span>Home & Living</span>
-      <span>Kids & Baby</span>
-      <span>Vintage</span>
-    </div>
+     <span class="categoryItem">Clothing & Accessories</span>
+     <span class="categoryItem">Jewelry</span>
+     <span class="categoryItem">Craft Supplies & Tools</span>
+     <span class="categoryItem">Weddings</span>
+     <span class="categoryItem">Entertainment</span>
+     <span class="categoryItem">Home & Living</span>
+     <span class="categoryItem">Kids & Baby</span>
+     <span class="categoryItem">Vintage</span>
+   </div>
 
     <div class="results">
       <nav>
@@ -38,33 +41,34 @@
         <div class="navSearch">
           <p id="navTitle">All categories</p>
           <ul class="navList">
-            <li>Home & Living</li>
-            <li>Art & Collectibles</li>
-            <li>Weddings</li>
-            <li>Clothing</li>
-            <li>Paper & Party Supplies</li>
-            <li>Jelewry</li>
-            <li>Accories</li>
-            <li>Craft Supplies & Tools</li>
-            <li>Bags & Purses</li>
-            <li>Bath & Beauty</li>
-            <li>Shoes</li>
-            <li>Books, Movies & Music</li>
-            <li>Electronic & Accessories</li>
-            <li>Toys & Games</li>
-            <li>Pet Supplies</li>
+            <li><a href="#">Home & Living</a></li>
+            <li><a href="#">Art & Collectibles</a></li>
+            <li><a href="#">Weddings</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Paper & Party Supplies</a></li>
+            <li><a href="#">Jelewry</a></li>
+            <li><a href="#">Accories</a></li>
+            <li><a href="#">Craft Supplies & Tools</a></li>
+            <li><a href="#">Bags & Purses</a></li>
+            <li><a href="#">Bath & Beauty</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Books, Movies & Music</a></li>
+            <li><a href="#">Electronic & Accessories</a></li>
+            <li><a href="#">Toys & Games</a></li>
+            <li><a href="#">Pet Supplies</a></li>
           </ul>
       </div>
     </nav>
+
     <div class="container">
       <div class="containerHeader">
-        <span>All catetoryies</span>
-        <span>> "watches"</span>
+        <span id="all">All catetoryies</span>
+        <span id="wordSearched">> "cards"</span>
         <span class="resultCount"></span>
       </div>
       <div class="containerSort">
-        <span>Sort by:</span>
-        <span>Relevency</span>
+        <span id="sortBy">Sort by:</span>
+        <span id="relevent">Relevency</span>
       </div>
       <div class="items">
         <!-- JS STUFF -->

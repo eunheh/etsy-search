@@ -1,5 +1,6 @@
 //total number of items in data = Results number
-var numberResult = data.count
+var number = data.count;
+var numberResult = number.toLocaleString('en')
 $(".resultCount").html(`(${numberResult} Results)`);
 
 var title = data.results[0].title;
@@ -8,12 +9,10 @@ var price = data.results[0].price;
 var url = data.results[0].url;
 var picture = data.results[0].Images[0].url_170x135;
 
-//NEEDED ON EACH BOARD
+//NEEDED ON EACH Box
 //four visible arguments: images => image, title, shop => shop name, price
 //links to its designated item page
 //when you hover over the image, it gives you a heart & hamburger
-
-// //it's a 4 by 4 = 16 squares
 
 function renderBox (item) {
   return ` <div class ="item">
