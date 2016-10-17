@@ -13,8 +13,8 @@
           <input class="searchBox" type="text" name="search" placeholder="cards">
           <input class="searchName" type="submit" value="Search">
       <div class="topbarOption">
-        <div class="topMenu">Sell on Etsy</div>
-        <div class="topMenu">Register</div>
+        <div class="topMenu"><a href="#">Sell on Etsy</a></div>
+        <div class="topMenu"><a href="#">Register</a></div>
         <button id="signIn">Sign in</button>
         <div class="topbarList">
           <ul>
@@ -46,7 +46,7 @@
             <li><a href="#">Weddings</a></li>
             <li><a href="#">Clothing</a></li>
             <li><a href="#">Paper & Party Supplies</a></li>
-            <li><a href="#">Jelewry</a></li>
+            <li><a href="#">Jewelry</a></li>
             <li><a href="#">Accories</a></li>
             <li><a href="#">Craft Supplies & Tools</a></li>
             <li><a href="#">Bags & Purses</a></li>
@@ -62,33 +62,51 @@
 
     <div class="container">
       <div class="containerHeader">
-        <span id="all">All catetoryies</span>
+        <span id="all">All categories</span>
         <span id="wordSearched">> "cards"</span>
         <span class="resultCount"></span>
       </div>
       <div class="containerSort">
         <span id="sortBy">Sort by:</span>
-        <span id="relevent">Relevency</span>
+        <span id="relevant">Relevancy</span>
       </div>
       <div class="items">
-        <!-- JS STUFF -->
       </div>
     </div>
   </div>
 
+<div class="related">
+  <div class="relatedHeading">Related to <span class="bold">cards</span></div>
+      <ul class="relatedItems">
+        <li class="itemR">greeting cards</li>
+        <li class="itemR">handmade cards</li>
+        <li class="itemR">birhday cards</li>
+      </ul>
+      <ul class="relatedItems">
+        <li class="itemR">greeting cards</li>
+        <li class="itemR">stampin up cards</li>
+        <li class="itemR">christmas cards</li>
+      </ul>
+        <ul class="relatedItems">
+        <li class="itemR">funny cards</li>
+        <li class="itemR">thank you cards</li>
+      </ul>
+    <div class="lookingFor"></div>
+</div>
+
     <div class="navPages">
-      <span class="page"><</span>
-      <span class="page">1</span>
-      <span class="page">2</span>
-      <span class="page">3</span>
-      <span class="page">4</span>
-      <span class="page">5</span>
-      <span class="page">6</span>
-      <span class="page">7</span>
-      <span class="page">8</span>
-      <span class="page">...</span>
-      <span class="page">250</span>
-      <span class="page">></span>
+      <button class="page greyBox"><</button>
+      <button class="page currentBox">1</button>
+      <button class="page">2</button>
+      <button class="page">3</button>
+      <button class="page">4</button>
+      <button class="page">5</button>
+      <button class="page">6</button>
+      <button class="page">7</button>
+      <button class="page">8</button>
+      <button class="page greyBox">...</button>
+      <button class="page">250</button>
+      <button class="page">></button>
     </div>
     <script src="./jquery.js"></script>
     <script src="./data.js"></script>
