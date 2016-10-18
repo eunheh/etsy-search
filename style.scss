@@ -54,6 +54,9 @@ $borderLine: #E1E3DF;
     font-size: 12px;
     list-style: none;
     color: $fontColor;
+    position: relative;
+    padding-top: 15px;
+    padding-right: 15px;
 
     .topMenu a {
       color: $fontColor;
@@ -88,15 +91,20 @@ $borderLine: #E1E3DF;
     ul {
       border-left: thin solid #EEEEEE;
       padding-left: 9px;
+      position: absolute;
+      margin-top: -25px;
+
     }
-      ul img {
-        width: 18px;
-        color: #666666;
-      }
-      #cart {
-        color: #888888;
-        font-size: 11px;
-        padding: 2px;
+    ul img {
+      width: 18px;
+      color: #666666;
+      margin-top: 3px;
+    }
+    #cart {
+      color: #888888;
+      font-size: 11px;
+      padding: 2px;
+      margin-top: 3px;
       }
     }
 }

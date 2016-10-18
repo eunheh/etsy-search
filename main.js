@@ -22,7 +22,7 @@ function renderBox (item) {
   <div class='title'> ${item.title}</div>
   <div class="shop"> ${item.Shop.shop_name}</div>
   <div class="price"> $${item.price}</div>
-  </a></div>  `;
+  </a></div>`;
 };
 
 //i < data.results.length (for it to loop over all the data)
